@@ -16,3 +16,12 @@ Requesting 'Dog' object from factory...
 Calling .makeSound() on returned Animal...  
 Woof  
 </sub>
+
+## Builder Pattern
+The Builder pattern simplifies complex object creation. When creating an object with what would be a cumbersome amount of optional constructor parameters the Builder pattern instead uses a Builder class which contains many optional functions to set the parameters. In doing this an object which would utilize few of the optional creation parameters can be created simply without passing many null values or zeros.  
+Example printout from the Builder implementation:  
+<sub>
+Creating house: House* house = builder->withDoors(2)->withWalls(4)->withWindows(3)->getResult();  
+Returned house results in:   
+This house has: 2 doors, 4 walls, 3 windows.  
+</sub>
