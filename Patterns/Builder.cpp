@@ -26,9 +26,9 @@ House* Builder::getResult(){
 }
 
 void Builder::demoPattern(){
-    cout << "Builder Pattern:" << endl;
+    cout << "Builder Pattern:" << endl << endl;
     cout << "The builder pattern assists in creating objects which would otherwise require overly complex parameters to intantiate." << endl;
-    cout << "This is done by calling methods to set whichever parameters are required and then requesting the resulting object created by the Builder." << endl;
+    cout << "This is done by calling methods to set whichever parameters are required and then requesting the resulting object created by the Builder." << endl << endl;
     cout << "Creating house: House* house = builder->withDoors(2)->withWalls(4)->withWindows(3)->getResult();" << endl;
     Builder* builder = new Builder();
     House* house = builder->withDoors(2)->withWalls(4)->withWindows(3)->getResult();

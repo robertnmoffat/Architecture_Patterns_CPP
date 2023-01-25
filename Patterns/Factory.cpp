@@ -21,8 +21,8 @@ Animal* Factory::getAnimal(string name){
 }
 
 void Factory::demoPattern() {
-        cout << "Factory Pattern:" << endl
-             << "The factory pattern hides the creation of objects within a factory class. The factory returns an interface instantiated as a concrete class." << endl;
+        cout << "Factory Pattern:" << endl << endl
+             << "The factory pattern hides the creation of objects within a factory class. The factory returns an interface instantiated as a concrete class." << endl << endl;
         
         cout << "Requesting 'Cat' object from factory..." << endl;
         Animal* cat = this->getAnimal("Cat");

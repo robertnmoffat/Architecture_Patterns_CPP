@@ -1,5 +1,6 @@
 #include "Headers/Factory.h"
 #include "Headers/Builder.h"
+#include "Headers/Singleton.h"
 #include <iostream>
 
 using namespace std;
@@ -9,7 +10,8 @@ int main()
     //Array of different design patterns.
     Pattern *f[] = {
         new Factory(),
-        new Builder()
+        new Builder(),
+        new Singleton()
         };
 
     //Iterate through a demo of each design pattern.
