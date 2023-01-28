@@ -1,6 +1,7 @@
 #include "Headers/Factory.h"
 #include "Headers/Builder.h"
 #include "Headers/Singleton.h"
+#include "Headers/Adapter.h"
 #include <iostream>
 
 using namespace std;
@@ -11,7 +12,8 @@ int main()
     Pattern *f[] = {
         new Factory(),
         new Builder(),
-        new Singleton()
+        new Singleton(),
+        new Adapter()
         };
 
     //Iterate through a demo of each design pattern.
