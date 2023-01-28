@@ -25,3 +25,13 @@ Creating house: House* house = builder->withDoors(2)->withWalls(4)->withWindows(
 Returned house results in:   
 This house has: 2 doors, 4 walls, 3 windows.  
 </sub>
+
+## Singleton Pattern
+The Singleton pattern ensures that only one single object can exist at runtime of the Singleton class. This is achieved through the use of a private constructor and private static reference to the single object. In this example a FakeDB class is made as a Singleton. Instead of calling new FakeDB() which is private, the user must use FakeDB::getInstance() which restricts the class to a single object.  
+After assigning the return of FakeDB::getInstance() to two separate pointers we get:  
+<sub>
+DB1 mem address: 0x55ccd74cc3c0  
+DB2 mem address: 0x55ccd74cc3c0  
+</sub>  
+Which shows that both pointers are referencing the same memory address, and so the same object.  
+
