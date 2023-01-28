@@ -35,3 +35,21 @@ DB2 mem address: 0x55ccd74cc3c0
 </sub>  
 Which shows that both pointers are referencing the same memory address, and so the same object.  
 
+## Adapter Pattern
+This pattern is meant to facilitate interfacing between two incompatible objects. Commonly used to interface new software with existing legacy software.  
+An example use of this pattern would be to use an adapter to convert json input to xml to communicate with existing software which only accepts xml input.  
+This example uses an IntRequestor class which requests random integers from an IntGenerator object. The StrIntAdapter extends IntGenerator while taking a StrIntGenerator as a parameter. The StrIntAdapter converts string output from StrIntGenerator to integer numbers to be used by the IntRequestor.  
+The output of this example is:  
+<sub>
+--Passing IntGenerator to IntRequestor--  
+New IntRequestor requesting int...  
+IntGenerator producing random int: 8  
+Int received: 8  
+--Example of string generation--  
+StrIntGenerator producing random int string: Two  
+--Passing StrIntGenerator to StrIntAdapter, then passing the adapter to IntRequestor--  
+New IntRequestor requesting int...  
+StrIntGenerator producing random int string: Eight  
+StrIntAdapter converting string: Eight to integer: 8  
+Int received: 8  
+</sub>
