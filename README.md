@@ -53,3 +53,24 @@ StrIntGenerator producing random int string: Eight
 StrIntAdapter converting string: Eight to integer: 8  
 Int received: 8  
 </sub>
+
+## Strategy Pattern
+Strategy pattern is meant to enable the use of multiple different classes each containing an algorithm to solve a similar problem.  
+To do this, multiple classes implement a strategy interface and handle the solution in their own ways.  
+This example uses different Strategy implementations to count to 100.  
+The output of this example is:  
+<sub>
+Instantiating CountRunner...  
+Setting strategy to CountByOne...  
+Running strategy.  
+Counting to 100 by 1:  
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,  
+Setting strategy to CountByTen...  
+Running strategy.  
+Counting to 100 by 10:  
+0,10,20,30,40,50,60,70,80,90,100,  
+Setting strategy to CountByTwentyFive...  
+Running strategy.  
+Counting to 100 by 25:  
+0, 25, 50, 75, 100,  
+</sub>
