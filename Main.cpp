@@ -2,6 +2,7 @@
 #include "Headers/Builder.h"
 #include "Headers/Singleton.h"
 #include "Headers/Adapter.h"
+#include "Headers/Strategy.h"
 #include <iostream>
 
 using namespace std;
@@ -13,7 +14,8 @@ int main()
         new Factory(),
         new Builder(),
         new Singleton(),
-        new Adapter()
+        new Adapter(),
+        new Strategy()
         };
 
     //Iterate through a demo of each design pattern.
