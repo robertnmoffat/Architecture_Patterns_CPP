@@ -1,5 +1,5 @@
-#include"../Headers/Builder.h"
-#include"../Headers/House.h"
+#include"../Headers/Builder/Builder.h"
+#include"../Headers/Builder/House.h"
 #include<iostream>
 
 using namespace std;

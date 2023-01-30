@@ -1,4 +1,4 @@
-#include"Pattern.h"
+#include"../Pattern.h"
 #include"House.h"
 
 class Builder : public Pattern{
