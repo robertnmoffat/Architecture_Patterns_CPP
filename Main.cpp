@@ -3,6 +3,7 @@
 #include "Headers/Singleton.h"
 #include "Headers/Adapter.h"
 #include "Headers/Strategy.h"
+#include "Headers/Observer.h"
 #include <iostream>
 
 using namespace std;
@@ -15,7 +16,8 @@ int main()
         new Builder(),
         new Singleton(),
         new Adapter(),
-        new Strategy()
+        new Strategy(),
+        new Observer()
         };
 
     //Iterate through a demo of each design pattern.
