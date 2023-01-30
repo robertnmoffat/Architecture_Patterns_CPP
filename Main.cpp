@@ -3,7 +3,7 @@
 #include "Headers/Singleton.h"
 #include "Headers/Adapter/Adapter.h"
 #include "Headers/Strategy.h"
-#include "Headers/Observer.h"
+#include "Headers/Observer/Observer.h"
 #include <iostream>
 
 using namespace std;

@@ -1,6 +1,6 @@
 #ifndef OBSERVER_H
 #define OBSERVER_H
-#include"Pattern.h"
+#include"../Pattern.h"
 
 class Observer : public Pattern{
     public:

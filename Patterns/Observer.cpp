@@ -1,6 +1,6 @@
-#include"../Headers/Observer.h"
-#include"../Headers/Publisher.h"
-#include"../Headers/MessageListener.h"
+#include"../Headers/Observer/Observer.h"
+#include"../Headers/Observer/Publisher.h"
+#include"../Headers/Observer/MessageListener.h"
 #include<iostream>
 
 using namespace std;
