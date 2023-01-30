@@ -1,5 +1,5 @@
-#include"../Headers/Singleton.h"
-#include"../Headers/FakeDB.h"
+#include"../Headers/Singleton/Singleton.h"
+#include"../Headers/Singleton/FakeDB.h"
 #include<iostream>
 
 using namespace std;

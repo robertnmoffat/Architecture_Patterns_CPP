@@ -1,6 +1,6 @@
 #include "Headers/Factory/Factory.h"
 #include "Headers/Builder/Builder.h"
-#include "Headers/Singleton.h"
+#include "Headers/Singleton/Singleton.h"
 #include "Headers/Adapter/Adapter.h"
 #include "Headers/Strategy.h"
 #include "Headers/Observer/Observer.h"

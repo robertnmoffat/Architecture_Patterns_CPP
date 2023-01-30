@@ -1,6 +1,6 @@
 #ifndef SINGLETON_H
 #define SINGLETON_H
-#include"Pattern.h"
+#include"../Pattern.h"
 
 class Singleton : public Pattern {
     public:
