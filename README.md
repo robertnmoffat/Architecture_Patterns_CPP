@@ -94,3 +94,20 @@ Publisher: Removing Subscriber from array.
 Publisher: Notifying all Subscribers with message: 'notification text from Publisher'  
 MessageListener: updated by Publisher with message: 'notification text from Publisher'  
 </sub>
+
+## State Pattern
+This pattern assists in creating complex dynamic object states while removing the need for refactoring. Rather than having a complex switch statement handling state, state is abstracted into objects implementing a shared state interface. When state of the object needs to be changed, simply pass it the new desired state object.  
+The output of the example is:  
+<sub>
+Instantiating new Game object which defaults to MenuState.  
+Game: Printing current screen.  
+MenuState: Showing menu screen.  
+Switching game to playing state.  
+Game: Switching state.  
+Game: Printing current screen.  
+PlayingState: Showing gameplay screen.  
+Switching game to game over state.  
+Game: Switching state.  
+Game: Printing current screen.  
+GameOverState: Showing game over screen.  
+</sub>
