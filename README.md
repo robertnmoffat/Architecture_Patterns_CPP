@@ -1,7 +1,7 @@
 # Description
 This project was created as an exercise in working through common software design patterns in C++.  
-Each pattern is represented by a class which implements a Pattern interface. The main function then iterates through an array containing all of the patterns and calls their demoPattern() function to demonstrate pattern functionality.
-Each pattern class is contained within the Patterns folder, and each non-pattern class is located within the Other folder.
+Each pattern is controlled by a class which implements a Pattern interface. The main function then iterates through an array containing all of the patterns and calls their demoPattern() function to demonstrate pattern functionality.
+Each pattern class implementation is contained within the Patterns folder, and each non-pattern class implementation is located within the Other folder.
 
 ## Factory Pattern
 The factory pattern encapsulates the creation of related objects within a Factory class. These objecs all implement a shared interface in order to reduce coupling making it easier to alter classes and create new ones in the future.
@@ -73,4 +73,24 @@ Setting strategy to CountByTwentyFive...
 Running strategy.  
 Counting to 100 by 25:  
 0, 25, 50, 75, 100,  
+</sub>
+
+## Observer Pattern
+Observer pattern allows a Publisher object to send updates to a list of Subscriber objects. This ensures that only the objects interested in a given event become notified. In this simple example there is only one Publisher, but a real example may use a Publisher interface with many different Publisher implementations for different events. The subscribers can then pick and choose which events they are interested in being notified about.  
+The output of this example is:  
+<sub>
+Instantiating MessageListener implementation of Subscriber...  
+Instantiating MessageListener implementation of Subscriber...  
+Instantiating Publisher...  
+Subscribing listener1...  
+Publisher: Adding Subscriber to array.  
+Subscribing listener2...  
+Publisher: Adding Subscriber to array.  
+Publisher: Notifying all Subscribers with message: 'notification text from Publisher'  
+MessageListener: updated by Publisher with message: 'notification text from Publisher'  
+MessageListener: updated by Publisher with message: 'notification text from Publisher'  
+Unsibscribing listener1...  
+Publisher: Removing Subscriber from array.  
+Publisher: Notifying all Subscribers with message: 'notification text from Publisher'  
+MessageListener: updated by Publisher with message: 'notification text from Publisher'  
 </sub>
