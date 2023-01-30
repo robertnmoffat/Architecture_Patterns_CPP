@@ -1,6 +1,6 @@
 #ifndef ADAPTER_H
 #define ADAPTER_H
-#include"Pattern.h"
+#include"../Pattern.h"
 
 class Adapter : public Pattern{
     public:

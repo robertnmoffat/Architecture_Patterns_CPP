@@ -1,7 +1,7 @@
 #include "Headers/Factory.h"
 #include "Headers/Builder.h"
 #include "Headers/Singleton.h"
-#include "Headers/Adapter.h"
+#include "Headers/Adapter/Adapter.h"
 #include "Headers/Strategy.h"
 #include "Headers/Observer.h"
 #include <iostream>

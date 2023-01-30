@@ -1,4 +1,4 @@
-#include"../Headers/StrIntAdapter.h"
+#include"../Headers/Adapter/StrIntAdapter.h"
 #include<string>
 #include<iostream>
 

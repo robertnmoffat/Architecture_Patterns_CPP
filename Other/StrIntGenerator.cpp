@@ -1,4 +1,4 @@
-#include "../Headers/StrIntGenerator.h"
+#include "../Headers/Adapter/StrIntGenerator.h"
 #include <cstdlib>
 #include <ctime>
 #include <iostream>

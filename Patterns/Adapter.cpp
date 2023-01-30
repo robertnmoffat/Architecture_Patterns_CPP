@@ -1,8 +1,8 @@
-#include"../Headers/Adapter.h"
-#include"../Headers/IntGenerator.h"
-#include"../Headers/StrIntGenerator.h"
-#include"../Headers/IntRequestor.h"
-#include"../Headers/StrIntAdapter.h"
+#include"../Headers/Adapter/Adapter.h"
+#include"../Headers/Adapter/IntGenerator.h"
+#include"../Headers/Adapter/StrIntGenerator.h"
+#include"../Headers/Adapter/IntRequestor.h"
+#include"../Headers/Adapter/StrIntAdapter.h"
 #include<iostream>
 #include <cstdlib>
 #include <ctime>

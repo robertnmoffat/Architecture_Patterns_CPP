@@ -1,4 +1,4 @@
-#include"../Headers/IntRequestor.h"
+#include"../Headers/Adapter/IntRequestor.h"
 #include<iostream>
 
 using namespace std;

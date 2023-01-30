@@ -1,4 +1,4 @@
-#include"../Headers/IntGenerator.h"
+#include"../Headers/Adapter/IntGenerator.h"
 #include<cstdlib>
 #include<ctime>
 #include<iostream>
