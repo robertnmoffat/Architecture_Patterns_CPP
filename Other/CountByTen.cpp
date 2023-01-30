@@ -1,4 +1,4 @@
-#include "../Headers/CountByTen.h"
+#include "../Headers/Strategy/CountByTen.h"
 #include<iostream>
 
 using namespace std;

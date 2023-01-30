@@ -1,8 +1,8 @@
-#include"../Headers/Strategy.h"
-#include"../Headers/CountByOne.h"
-#include"../Headers/CountByTen.h"
-#include"../Headers/CountByTwentyFive.h"
-#include"../Headers/CountRunner.h"
+#include"../Headers/Strategy/Strategy.h"
+#include"../Headers/Strategy/CountByOne.h"
+#include"../Headers/Strategy/CountByTen.h"
+#include"../Headers/Strategy/CountByTwentyFive.h"
+#include"../Headers/Strategy/CountRunner.h"
 #include<iostream>
 
 using namespace std;

@@ -1,6 +1,6 @@
 #ifndef STRATEGY_H
 #define STRATEGY_H
-#include"Pattern.h"
+#include"../Pattern.h"
 
 class Strategy : public Pattern{
     public:

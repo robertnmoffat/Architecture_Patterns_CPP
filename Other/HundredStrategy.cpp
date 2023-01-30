@@ -1,4 +1,4 @@
-#include"../Headers/HundredStrategy.h"
+#include"../Headers/Strategy/HundredStrategy.h"
 
 HundredStrategy::HundredStrategy(){};
 HundredStrategy::~HundredStrategy(){};

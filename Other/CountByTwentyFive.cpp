@@ -1,4 +1,4 @@
-#include"../Headers/CountByTwentyFive.h"
+#include"../Headers/Strategy/CountByTwentyFive.h"
 #include<iostream>
 
 using namespace std;
