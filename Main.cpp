@@ -4,6 +4,7 @@
 #include "Headers/Adapter/Adapter.h"
 #include "Headers/Strategy/Strategy.h"
 #include "Headers/Observer/Observer.h"
+#include "Headers/State/State.h"
 #include <iostream>
 
 using namespace std;
@@ -17,7 +18,8 @@ int main()
         new Singleton(),
         new Adapter(),
         new Strategy(),
-        new Observer()
+        new Observer(),
+        new State()
         };
 
     //Iterate through a demo of each design pattern.
