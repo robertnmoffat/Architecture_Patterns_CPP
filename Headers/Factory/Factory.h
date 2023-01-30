@@ -1,6 +1,6 @@
 #ifndef FACTORY_H
 #define FACTORY_H
-#include "Pattern.h"
+#include "../Pattern.h"
 #include "Animal.h"
 #include <iostream>
 #include<string>

@@ -1,7 +1,6 @@
-#include "../Headers/Factory.h"
-#include"../Headers/Animal.h"
-#include "../Headers/Dog.h"
-#include "../Headers/Cat.h"
+#include "../Headers/Factory/Factory.h"
+#include "../Headers/Factory/Dog.h"
+#include "../Headers/Factory/Cat.h"
 #include <iostream>
 
 using namespace std;
